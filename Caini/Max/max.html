@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max</title>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body> 
+     <header>
+        <div class="logo">
+        <img src="../../logo.jpg">
+    </div>
+     <nav>
+        <div class="hamburger" >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+            <li> <a href="/Despre/despreNoi.html">Despre noi</a></li>
+            <li> <a href="/Caini/caini.html"class="pagina-curenta">Caini</a></li>
+            <li> <a href="/Pisici/pisici.html">Pisici</a></li>
+            <li> <a href="/Reguli/reguliDeAdoptie.html">Reguli de adoptie</a></li>
+            <li> <a href="/Voluntariat/voluntariat.html">Voluntariat</a></li>
+            <li> <a href="/Contact/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <h1>MAX</h1>
+    <div class="pozeDara">
+        <section>
+            <div class="pozanr1">
+            <img src="Max.jpg" >
+        </div>
+        <div class="poze">
+            <img src="max2.jpg">
+            <img src="max3.jpg">
+            <img src="max4.jpg">
+        </div>
+        </section>
+        <section>
+        <div class="mutare">
+            <div class="text">
+            <p><strong>Vârstă:</strong>   12 ani</p>
+            <p><strong>Talie:  </strong>Medie </p>
+            <p><strong>Sex:  </strong>Mascul</p>
+            </div>
+        <h2><strong>Descriere</strong></h2>
+       <p>O altă poveste din sutele de povești ale cățeilor din acest adapost este a lui Max, un cățel senior, care nu a îmbătrânit la noi, dar dacă ar putea vorbi, ar fi exact ca un bunic care ar depana povești de viață și despre supraviețuire. El ar putea să povestească dacă a avut cândva o curte să o păzească sau dacă a trăit numai pe străzi.</p>
+       <p>Noi putem povesti că atunci când a căzut (lovit de o mașină probabil) și nu s-a mai putut ridica, oamenii au chemat hingherii să îi scape de câinele care zăcea neputincios în stradă. L-am scos din ecarisaj, l-am internat, au urmat analize și investigații, ne-am rugat să găsim pe cineva să îi ofere o bătrânețe liniștită și cum nimeni nu s-a oferit, este în adăpost.</p>
+       <p>În primele lui zile la adăpost Max a fugit. S-a strecurat mai agil decât ne-am fi închipuit noi că poate fi un cățel senior pe lângă îngrijitor, când a deschis țarcul unde era. Dar Max s-a întors la adăpost singur.</p>
+       <div class="butoane">
+        <div class="buton1">
+        <button id="openform" type="button"><strong>Adopta</strong></button>
+        </div>
+        <div class="buton2">
+        <button id="openDonatie" type="button"><strong>Doneaza</strong></button>
+       </div>   </div>
+    </div>
+        </section>
+    </div>
+     <footer style="background-color: white;font-size:12px;text-align: center;padding: 10px;color: #a59e92;margin-top:20px ;">
+        <p><strong>Help a paw</strong></p>
+        <p><strong>O casuta pentru fiecare labuta</strong></p>
+        <p><strong>© 2025. Toate drepturile rezervate.</strong></p>
+    </footer>
+     <div id="modal">
+        <div class="modal-content">
+            <span id="close">&times;</span>
+            <h2>Cerere adoptie - Max</h2>
+           
+            <img src="Max.jpg">
+        
+        <div class="formularadoptie">
+            <form id="adoptform">
+                <label>Nume:</label><br>
+                <input id="nume"><br><br>
+
+                <label>Prenume:</label><br>
+                <input id="prenume"><br><br>
+
+                <label>Telefon:</label><br>
+                <input id="telefon"><br><br>
+
+                <label>Email:</label><br>
+                <input id="email"><br><br>
+                <label>De ce doresti sa il adopti pe Max?</label><br>
+                <textarea id="motiv" rows="5" cols="30" placeholder="Scrie mesajul tău aici..."></textarea><br><br>
+        <p><strong>Unde locuiti?</strong></p>
+        <label>
+           <input type="radio" name="locuinta" required> la casa 
+        </label><br>
+        <label>
+           <input type="radio" name="locuinta"> la apartament
+        </label><br><br>
+    
+        </div> 
+        <p><strong>Aveti peste 18 ani?</strong></p>
+        <label>
+           <input type="radio" name="varsta" required> Da 
+        </label><br>
+        <label>
+           <input type="radio" name="varsta"> Nu
+        </label><br><br>
+        <p><strong>Ai mai avut animale?</strong></p>
+        <label>
+           <input type="radio" name="alte_animale" required> Da 
+        </label><br>
+        <label>
+           <input type="radio" name="alte_animale"> Nu
+        </label><br>
+        <label>
+        <input type="radio" name="alte_animale"> Am si acum
+        </label><br><br>
+
+        
+       <button type="submit"class="butonCerereAdoptie"><strong>Trimite cererea</strong></button>
+    </form>
+   </div>
+        </div>
+    </div>
+    <div id="modalDonatii">
+    <div class="modal-content-donatii">
+        <span id="closeDonatie">&times;</span>
+        <h2>Doneaza pentru Max</h2>
+
+        <div class="donatie-header">
+            <img src="Max.jpg">
+        <div>
+            <p><strong>Unde merg banii?</strong></p>
+            <p style="font-size:0.9em;">Fiecare leu ajută la hrana, vaccinurile și îngrijirea medicală a lui Max și a prietenilor lui din adăpost.</p>
+    </div>
+     </div>
+   
+
+   <form id="donatieform">
+    <label><strong>Alege suma:</strong></label>
+    <div class="optiuni-sume">
+        <button type="button"class="btn-suma" onclick="setSuma(50,this)">50 RON</button>
+        <button type="button"class="btn-suma" onclick="setSuma(100,this)">100 RON</button>
+        <button type="button"class="btn-suma" onclick="setSuma(150,this)">150 RON</button>
+    </div>
+    <input type="number" id="suma_finala" class="input-donatie" placeholder="Alta suma..." required>
+     
+    <label><strong>Detalii Card:</strong></label>
+            <input type="text" class="input-donatie" placeholder="Nume deținător card" required>
+            <input type="text" id="nr_card" class="input-donatie" placeholder="Număr card (16 cifre)" maxlength="16" required>
+
+    <div style="display: flex; gap:10px;">
+        <input type="text" class="input-donatie" placeholder="LL/AA" maxlength="5" required>
+        <input type="text" class="input-donatie" placeholder="CVC" maxlength="3" required>
+    </div>
+    <button type="submit" class="butonCerereDonatie"><strong>Finalizeaza donatia</strong></button>
+   </form>
+</div>
+</div>
+    <script src="/script3.js"></script>
+    <script src="/script2.js"></script>
+
+</body>
+</html>
